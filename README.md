@@ -23,9 +23,7 @@ Users should be able to:
 ![](./images/nftcard-challenge-completed.png) 
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://hungry-boyd-d9a55c.netlify.app/]
 
 ### Built with
 
