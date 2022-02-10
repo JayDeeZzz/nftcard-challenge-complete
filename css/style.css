@@ -1,0 +1,132 @@
+    @font-face{
+      font-family:'Outfit';
+      src: url('../fonts/Outfit-VariableFont_wght.ttf');
+    }
+    body{
+      font-family:'Outfit';
+      font-size: 18px;
+      background:#0D192B;
+      color:#8BACDA;
+      overflow: hidden;
+    }
+    a, h2{
+      text-decoration: none;
+      color:#FFF;
+    }
+    a:hover, h2:hover{
+      color:#00FFF7!important;
+    }
+    h2{ font-weight: 600; }
+    p{
+      font-weight:300;
+      color:#8BACDA;
+    }
+    #card{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 375px;
+      padding:20px; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      border-radius: 20px;
+      background: #14253D;
+    }
+    #card img{
+      width: 100%;
+      height: auto;
+      border-radius: 20px;
+    }
+    .inner {
+      position: relative;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: rgba(0, 255, 247, 0.5);
+      border-radius:20px;
+    }
+    .inner:hover .overlay {
+      opacity: 1;
+    }
+    .view {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .price::before {
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      width: 0.6em;
+      height: 1em;
+      background:url(../images/icon-ethereum.svg);
+      background-size: cover;
+      margin-right:10px;
+    }
+    .time::before{
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      width: 1em;
+      height: 1em;
+      background:url(../images/icon-clock.svg);
+      background-size: cover;
+      margin-right:7px;
+    }
+    .time{ 
+      text-align:right;
+    }
+    .price{
+      color:#00FFF7;;
+    }
+    .price, .time{
+      display:block;  
+      margin-bottom:10px;
+    }
+    .info{
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    .info> div {
+      width:50%;
+      align-items:center;
+    }
+    hr{
+      width:100%; 
+      border: 1px solid #2F415B; 
+      margin-bottom:15px;
+    }
+    .user{
+      border-radius:100%!important; 
+      width:50px!important; 
+      border:2px solid #fff; 
+      margin-right:20px;
+    }
+    .name{ 
+      width:auto!important; 
+      padding-top:15px;
+    }
+    .attribution{ 
+      position:absolute; 
+      bottom:0;  
+      text-align:center; 
+      margin:0 auto; 
+      font-size: 11px;
+      width: 100%;
+    }
+    .attribution a { 
+      color: hsl(228, 45%, 44%);
+    }
