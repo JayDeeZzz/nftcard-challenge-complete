@@ -42,6 +42,4 @@ I learned how to use flexbox and CSS grid by myself. I've been watching youtube 
 
 
 ## Author
-
-- Website - [Jacob Rodriguez](https://www.your-site.com)
 - Frontend Mentor - [@jacobrdz77](https://www.frontendmentor.io/profile/yourusername)
